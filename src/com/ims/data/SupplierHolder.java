@@ -12,7 +12,10 @@ class SupplierHolder {
         currentIndex = currentIndex +1;
         return currentIndex;
     }
-    
 
+    Supplier fetchSupplierById(int id){
+        return suppliers[id];
+    }
+    
     // Fetching a supplier with a particular index
 }
