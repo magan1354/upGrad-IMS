@@ -8,5 +8,7 @@ class IMS {
         System.out.println(admin.buildingNumber);
         System.out.println(admin.streetName);
         System.out.println(admin.pincode);
+
+        Admin admin2 = new Admin();
     }
 }
