@@ -9,6 +9,14 @@ class Admin {
     String city;
     int pincode;
 
+    Admin(String n, String bn, String sn, String c, int pc){
+        name = n;
+        buildingNumber = bn;
+        streetName = sn;
+        city = c;
+        pincode = pc;
+    }
+
     // returnType methodName(){ //method definition -> return statement}
     void checkProfileDashboard(){
         System.out.println("Please select an option");
