@@ -8,6 +8,18 @@ class InventoryManager {
     String city;
     int pincode;
 
+    InventoryManager() {
+        System.out.println("Inventory Manager Constructed");
+    }
+
+    InventoryManager(String name, String buildingNumber, String streetName, String city, int pincode) {
+        this.name = name;
+        this.buildingNumber = buildingNumber;
+        this.streetName = streetName;
+        this.city = city;
+        this.pincode = pincode;
+    }
+
     // returnType methodName(){ //method definition -> return statement}
     void checkProfileDashboard(){
         System.out.println("Please select an option");
