@@ -13,11 +13,13 @@ class InventoryManager {
     }
 
     InventoryManager(String name, String buildingNumber, String streetName, String city, int pincode) {
+        this();
         this.name = name;
         this.buildingNumber = buildingNumber;
         this.streetName = streetName;
         this.city = city;
         this.pincode = pincode;
+        System.out.println("Assignments Done");
     }
 
     // returnType methodName(){ //method definition -> return statement}
