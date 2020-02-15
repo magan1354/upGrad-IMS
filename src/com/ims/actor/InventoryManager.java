@@ -1,7 +1,5 @@
 package com.ims.actor;
 
-import javafx.css.converter.LadderConverter;
-
 class InventoryManager {
     int id;
     String name;
