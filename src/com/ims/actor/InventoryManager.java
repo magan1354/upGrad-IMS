@@ -27,4 +27,12 @@ class InventoryManager {
         System.out.println("Please select an option");
         System.out.println("Press 1 for viewing profile details");
     }
+
+    void test(){
+        this.callMe();
+    }
+
+    void callMe(){
+
+    }
 }
