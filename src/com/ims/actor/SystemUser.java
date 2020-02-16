@@ -5,7 +5,7 @@ class SystemUser {
     private int id;
     private String name;
     private Address address;
-    private boolean loggedIn;
+    protected boolean loggedIn;
 
     public SystemUser(String name, Address address) {
         this.name = name;
