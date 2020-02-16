@@ -12,7 +12,7 @@ public class Supplier {
 
     public Supplier(String name, Address address) {
         this();
-        setName(name); 
+        setName(name);
         this.address = address;
         System.out.println("Assignments Done");
     }

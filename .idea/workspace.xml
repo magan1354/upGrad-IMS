@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dee2017e-aea7-4b7f-a5b1-73e99fa77caa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/ims/actor/InventoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ims/actor/InventoryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ims/actor/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ims/actor/Admin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ims/actor/Supplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ims/actor/Supplier.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
