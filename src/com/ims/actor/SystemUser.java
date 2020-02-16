@@ -6,6 +6,14 @@ class SystemUser {
     private String name;
     private Address address;
 
+    public SystemUser() {
+    }
+
+    public SystemUser(String name, Address address) {
+        this.name = name;
+        this.address = address;
+    }
+
     public String getName(){
         return name;
     }
