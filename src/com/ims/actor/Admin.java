@@ -3,11 +3,9 @@ package com.ims.actor;
 import com.ims.data.SupplierHolder;
 
 // class <className>
-class Admin {
+class Admin extends SystemUser {
     //DataType nameofattribute
-    private int id;
-    private String name;
-    private Address address;
+
     Supplier[] suppliers = new Supplier[1000];
     private static int supCount = 0;
 
@@ -17,7 +15,7 @@ class Admin {
 
     Admin(String n, Address address){
         setName(n);
-        this.address = address;
+        setAddress(address);
     }
 
     // returnType methodName(){ //method definition -> return statement}
@@ -47,30 +45,5 @@ class Admin {
         supCount = supCount + 1;
     }
 
-    public String getName(){
-        return name;
-    }
 
-    public void setName(String name){
-        if(name == null || name == ""){
-            // Generate an alarm
-        }
-        this.name = name;
-    }
-
-    public int getId(){
-        return id;
-    }
-
-    public void setId(int id){
-        this.id = id;
-    }
-
-    public void setAddress(Address address){
-        this.address = address;
-    }
-
-    public Address getAddress(){
-        return address;
-    }
 }
