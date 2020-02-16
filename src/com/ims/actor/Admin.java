@@ -9,15 +9,17 @@ class Admin extends SystemUser {
     Supplier[] suppliers = new Supplier[1000];
     private static int supCount = 0;
 
-    Admin(){
+    public Admin(){
         super(null, null);
         System.out.println("Admin Constructed !!");
     }
 
-    Admin(String n, Address address){
+    public Admin(String n, Address address){
         super(n, address);
-        setName(n);
-        setAddress(address);
+    }
+
+    public Admin(String n1, Address address, String text){
+        super(n1, address);
     }
 
     // returnType methodName(){ //method definition -> return statement}

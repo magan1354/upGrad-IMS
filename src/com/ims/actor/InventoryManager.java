@@ -3,11 +3,12 @@ package com.ims.actor;
 class InventoryManager extends SystemUser {
 
     InventoryManager() {
+        super(null,null);
         System.out.println("Inventory Manager Constructed");
     }
 
     InventoryManager(String name, Address address) {
-        this();
+        super(name,address);
         setName(name);
         setAddress(address);
         System.out.println("Assignments Done");
