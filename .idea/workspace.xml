@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dee2017e-aea7-4b7f-a5b1-73e99fa77caa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/ims/actor/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ims/actor/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ims/actor/SystemUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ims/actor/SystemUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,5 +76,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="338" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1581767271168" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1581866919111">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581866919111" />
   </component>
 </project>
