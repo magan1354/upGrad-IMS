@@ -12,9 +12,25 @@ class SystemUser {
         this.address = address;
     }
 
-    public void login(String userName, String Password){
+    public boolean login(String userName, String Password){
         // Check whether userName & password is valid or not
         // If valid then store state as loggedIn
+        if(userName == getUserName() && Password == getPassword()){
+            System.out.println("Logged in Successfully!");
+            loggedIn = true;
+            return loggedIn;
+        }
+        System.out.println("Logged in Unsuccessfully!");
+        loggedIn = false;
+        return loggedIn;
+    }
+
+    private String getUserName(){
+        return "systemuser";
+    }
+
+    private String getPassword(){
+        return  "systemuser";
     }
 
     public String getName(){
