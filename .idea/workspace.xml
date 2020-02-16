@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dee2017e-aea7-4b7f-a5b1-73e99fa77caa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ims/actor/SystemUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ims/actor/SystemUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Internship/Week-5/IMSUpgrad-master" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="ServiceViewManager">
@@ -68,6 +68,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="81" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1581866592467" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1581867421409">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581867421409" />
     <state x="184" y="7" key="SettingsEditor" timestamp="1581766323032">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
