@@ -1,5 +1,10 @@
 package com.ims.entry;
 
+import com.ims.actor.Address;
+import com.ims.actor.Admin;
+import com.ims.actor.InventoryManager;
+import com.ims.actor.Supplier;
+
 import java.util.Scanner;
 
 class IMSApplication {
@@ -10,19 +15,38 @@ class IMSApplication {
         System.out.println("2 for Supplier");
         System.out.println("3 for Inventory Manager");
         java.util.Scanner scanner = new Scanner(System.in);
-        while (checkUserSelection(scanner) == false) {
+
+        int userSelection = checkUserSelection(scanner);
+        while (userSelection < 1 || userSelection > 3) {
             System.out.println("Incorrect Selection, Please try again!");
+            userSelection = checkUserSelection(scanner);
+        }
+        switch (userSelection) {
+            case 1:
+                Address adminAddress = new Address("1303", "Laurence Street", "Delhi", 110007);
+                Admin admin = new Admin("Admin", adminAddress);
+                admin.checkProfileDashboard();
+                break;
+            case 2:
+                Address supplierAddress = new Address("1303", "Laurence Street", "Delhi", 110007);
+                Supplier supplier = new Supplier("Supplier", supplierAddress);
+                supplier.checkProfileDashboard();
+                break;
+            case 3:
+                Address imAddress = new Address("1303", "Laurence Street", "Delhi", 110007);
+                InventoryManager im = new InventoryManager("Inventory Manager", imAddress);
+                im.checkProfileDashboard();
+                break;
+            default:
+
         }
     }
-
-    private static boolean checkUserSelection (Scanner scanner){
+    private static int checkUserSelection(Scanner scanner) {
         // 1 = Admin, 2=Supplier, 3= Inventory Manager
-        boolean correct = true;
         int systemUserType = scanner.nextInt();
         if (systemUserType < 1 || systemUserType > 3) {
             System.out.println("You pressed an incorrect Key !");
-            correct = false;
         }
-        return correct;
+        return systemUserType;
     }
 }

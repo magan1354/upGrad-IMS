@@ -43,4 +43,8 @@ class SystemUser {
     public Address getAddress(){
         return address;
     }
+
+    public void checkProfileDashboard(){
+        System.out.println("Press 1 for user details");
+    }
 }

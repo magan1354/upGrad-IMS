@@ -1,13 +1,13 @@
 package com.ims.actor;
 
-class InventoryManager extends SystemUser {
+public class InventoryManager extends SystemUser {
 
-    InventoryManager() {
+    public InventoryManager() {
         super(null,null);
         System.out.println("Inventory Manager Constructed");
     }
 
-    InventoryManager(String name, Address address) {
+    public InventoryManager(String name, Address address) {
         super(name,address);
         setName(name);
         setAddress(address);
@@ -15,7 +15,7 @@ class InventoryManager extends SystemUser {
     }
 
     // returnType methodName(){ //method definition -> return statement}
-    void checkProfileDashboard(){
+    public void checkProfileDashboard(){
         System.out.println("Please select an option");
         System.out.println("Press 1 for viewing profile details");
     }
