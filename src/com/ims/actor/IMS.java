@@ -12,5 +12,6 @@ class IMS {
         Admin admin2 = new Admin();*/
 
         InventoryManager imanager = new InventoryManager("Ankit" , "1172", "GT Road", "Delhi", 110007);
+        Admin admin = new Admin();
     }
 }

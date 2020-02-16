@@ -2,9 +2,9 @@ package com.ims.actor;
 // class <className>
 class Admin {
     //DataType nameofattribute
-    int id;
-    String name;
-    Address address;
+    private int id;
+    private String name;
+    private Address address;
     Supplier[] suppliers = new Supplier[1000];
 
     Admin(){
@@ -12,7 +12,7 @@ class Admin {
     }
 
     Admin(String n, Address address){
-        name = n;
+        setName(n);
         this.address = address;
     }
 
@@ -42,7 +42,30 @@ class Admin {
 
     }
 
-    String getName(){
+    public String getName(){
         return name;
+    }
+
+    public void setName(String name){
+        if(name == null || name == ""){
+            // Generate an alarm
+        }
+        this.name = name;
+    }
+
+    public int getId(){
+        return id;
+    }
+
+    public void setId(int id){
+        this.id = id;
+    }
+
+    public void setAddress(Address address){
+        this.address = address;
+    }
+
+    public Address getAddress(){
+        return address;
     }
 }
